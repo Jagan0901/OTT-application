@@ -1,6 +1,6 @@
 [
   {
-   "id": "001",
+   "id": "1",
    "name": "Game of Thrones",
    "poster": "https://i.pinimg.com/564x/05/7b/7c/057b7cd3fad06643e441d31339dd299f.jpg",
    "rating": 9.2,
@@ -34,7 +34,7 @@
    ]
   },
   {
-   "id": "002",
+   "id": "2",
    "name": "The Originals",
    "poster": "https://i.pinimg.com/564x/2a/b3/50/2ab350d2aa4663cb79ae4029104457ae.jpg",
    "rating": 8.3,
@@ -68,7 +68,7 @@
    ]
   },
   {
-   "id": "003",
+   "id": "3",
    "name": "Breaking Bad",
    "poster": "https://i.pinimg.com/564x/4e/7d/89/4e7d89f47058341e247f90f6dceb20fe.jpg",
    "rating": 9.5,
@@ -102,7 +102,7 @@
    ]
   },
   {
-   "id": "004",
+   "id": "4",
    "name": "The Vampire Diaries",
    "poster": "https://i.pinimg.com/564x/16/13/e6/1613e6ef9ebf2eaec46b262aedfb5ff5.jpg",
    "rating": 7.7,
@@ -136,7 +136,7 @@
    ]
   },
   {
-   "id": "005",
+   "id": "5",
    "name": "Peaky Blinders",
    "poster": "https://i.pinimg.com/564x/dc/b3/fc/dcb3fc7203203989e52729957e8c77d2.jpg",
    "rating": 8.8,
@@ -170,7 +170,7 @@
    ]
   },
   {
-   "id": "006",
+   "id": "6",
    "name": "Sherlock",
    "poster": "https://i.pinimg.com/564x/6a/3e/88/6a3e88a92c10515cc52271c53c454ea4.jpg",
    "rating": 9.1,
@@ -204,7 +204,7 @@
    ]
   },
   {
-   "id": "007",
+   "id": "7",
    "name": "Stranger Things",
    "poster": "https://i.pinimg.com/564x/88/56/4f/88564fb3a6a56236d00851382b59a036.jpg",
    "rating": 8.7,
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "id": "008",
+   "id": "8",
    "name": "Dark",
    "poster": "https://i.pinimg.com/564x/53/e4/cf/53e4cffec31c467e3ef89766fc13258f.jpg",
    "rating": 8.7,
@@ -272,7 +272,7 @@
    ]
   },
   {
-   "id": "009",
+   "id": "9",
    "name": "13 Reasons Why",
    "poster": "https://i.pinimg.com/564x/25/ce/82/25ce826e1d8e60eb369e6a0000d2febc.jpg",
    "rating": 7.5,
@@ -306,7 +306,7 @@
    ]
   },
   {
-   "id": "010",
+   "id": "10",
    "name": "Legacies",
    "poster": "https://i.pinimg.com/564x/ed/81/4e/ed814e585afc351bd474993bdb56c645.jpg",
    "rating": 7.3,
@@ -340,7 +340,7 @@
    ]
   },
   {
-   "id": "011",
+   "id": "11",
    "name": "Friends",
    "poster": "https://i.pinimg.com/564x/1d/ec/af/1decafeb3e7d31f4adb3d5dee66717ed.jpg",
    "rating": 9,
@@ -374,7 +374,7 @@
    ]
   },
   {
-   "id": "012",
+   "id": "12",
    "name": "Prison Break",
    "poster": "https://i.pinimg.com/564x/d1/f2/a2/d1f2a283afa65cce39d016143ad9a3ca.jpg",
    "rating": 8.3,
