@@ -6,6 +6,7 @@ import { movieAPI } from './api';
 
 export function Add_Movies() {
   // const moviesList = INITIAL_MOVIES_LIST;
+  const [id, setId] = useState("");
   const [name, setName] = useState("");
   const [poster, setPoster] = useState("");
   const [rating, setRating] = useState("");
@@ -29,6 +30,14 @@ export function Add_Movies() {
   return (
 
     <div className='add-movies'>
+      <TextField
+        id="outlined-basic"
+        label="Movie id"
+        variant="outlined"
+        type="number"
+        onChange={(event) => setId(event.target.value)}
+        placeholder='Enter any id' />
+
       <TextField
         id="outlined-basic"
         label="Movie name"
@@ -165,6 +174,7 @@ export function Add_Movies() {
         variant="contained"
         onClick={() => {
           const newMovie = {
+            id : id,
             name: name,
             poster: poster,
             rating: rating,

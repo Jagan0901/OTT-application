@@ -6,6 +6,7 @@ import { showsAPI } from './api';
 
 export function Add_TV_Shows() {
 
+  const [id, setId] = useState("");
   const [name, setName] = useState("");
   const [poster, setPoster] = useState("");
   const [rating, setRating] = useState("");
@@ -30,6 +31,14 @@ export function Add_TV_Shows() {
   return (
 
     <div className='add-webSeries'>
+
+      <TextField
+        id="outlined-basic"
+        label="TV show id"
+        variant="outlined"
+        type="number"
+        placeholder='Enter any id'
+        onChange={(event) => setId(event.target.value)} />      
 
       <TextField
         id="outlined-basic"
@@ -164,6 +173,7 @@ export function Add_TV_Shows() {
         variant="contained"
         onClick={() => {
           const newShow = {
+            id: id,
             name: name,
             poster: poster,
             rating: rating,
