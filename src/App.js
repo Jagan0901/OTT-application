@@ -1005,7 +1005,7 @@ function App() {
      <Button color='inherit' onClick={()=> navigate("/Movies")}>Movies</Button>
      <Button color='inherit' onClick={()=> navigate("/TVShows/add")}>AddShows</Button>
      <Button color='inherit' onClick={()=> navigate("/Movies/add")}>AddMovies</Button>
-     <Button color='inherit' onClick={()=> navigate("/color-game")}>Colorgame</Button>
+     {/* <Button color='inherit' onClick={()=> navigate("/color-game")}>Colorgame</Button> */}
      </div>
 
      <Button 
@@ -1025,7 +1025,7 @@ function App() {
           <Route path="/webseries" element={<Navigate replace to ="/TVShows"/>}/>
           <Route path="/series" element={<Navigate replace to ="/TVShows"/>}/>
           <Route path="/TVShows/add" element={<Add_TV_Shows/>}/>
-          <Route path="/color-game" element={<AddColor/>}/>
+          {/* <Route path="/color-game" element={<AddColor/>}/> */}
           <Route path="/Movies" element={<Movies/>}/>
           <Route path="/films" element={<Navigate replace to = "/Movies"/>}/>
           <Route path="/Movies/:movieId" element={<MovieDetail/>}/>
