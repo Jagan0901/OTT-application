@@ -238,7 +238,7 @@ function EditShowForm({series}){
           fetch(`${showsAPI}/TVShows/${series.id}`,{
             method  :"PUT",
             body    : JSON.stringify(updatedShow),
-            headers : {"Content-Type" : "application/json"}
+            headers : {"Content-Type" : "application/json", "x-auth-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGJkZWYzNDYwNzhlMzVlZjM1ZDg3ZiIsImlhdCI6MTY3NTM1NTAyOX0.yavdcq05w3wK_6HYXxMq9KtJ6qVZ12E3GxuEXt_eOSo"}
           })
           .then((data) => data.json())
           .then(() => navigate("/TVShows"))
