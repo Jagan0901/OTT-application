@@ -21,7 +21,8 @@ export function EditMovies() {
   
   const getMovieInfo = ()=> {
     fetch(`${movieAPI}/Movies/${movieId}`,{
-     method:"GET"
+     method:"GET",
+     headers: {"x-auth-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGJkZWYzNDYwNzhlMzVlZjM1ZDg3ZiIsImlhdCI6MTY3NTM1NTAyOX0.yavdcq05w3wK_6HYXxMq9KtJ6qVZ12E3GxuEXt_eOSo"}
      })
      .then((data)=> data.json())
      .then((mv)=> setMovie(mv))
