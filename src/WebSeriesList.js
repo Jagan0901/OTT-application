@@ -59,7 +59,8 @@ return(
            color= 'error'          
            onClick={()=>
             fetch(`${showsAPI}/TVShows/${webSeries.id}`,{
-              method : "DELETE"
+              method : "DELETE",
+              headers: {"x-auth-token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGJkZWYzNDYwNzhlMzVlZjM1ZDg3ZiIsImlhdCI6MTY3NTM1NTAyOX0.yavdcq05w3wK_6HYXxMq9KtJ6qVZ12E3GxuEXt_eOSo"}
             })
              .then(()=>refresh())
             }           
